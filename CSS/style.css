@@ -1,0 +1,98 @@
+/* Reset body */
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+#title-section{
+    font-family: 'Montserrat', sans-serif;
+}
+.bg-img{
+    background-image: url("https://i.ibb.co/4m4z7Cd/banner.png");
+    width: 100%;
+    height: 800px;
+    background-position: center;
+    background-repeat: initial;
+    background-size: cover;
+    position: relative;
+}
+.top-nav{
+    overflow: hidden;
+    position: relative;
+    padding: 20px 0;
+    transition: ease-out 500ms;
+}
+.nav-tag{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    text-decoration: none;
+    padding: 20px 20px 10px 20px;
+    font-size: 1.5rem;
+    transition: ease-out 500ms;
+}
+.nav-tag:hover{
+    background-color: lightgoldenrodyellow;
+    color: black;
+    
+}
+.btn-order{
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+    left: 400px;
+    top: 450px;
+    width: 190px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(243, 192, 26);
+    font-size: 1rem;
+    text-align: center;
+    transition: ease-out 300ms;
+
+}
+.btn-order:hover{
+    cursor: pointer;
+    background-color: rgb(250, 213, 91);
+    transform: translateY(0.25em);
+}
+#right{
+    width: 20px;
+    margin-right: 20px;
+    background-color: white;
+    border-radius: 100%;
+}
+.delivery-text{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin: 480px 0 0 950px;
+}
+#menu-section{
+    background-color: white;
+}
+/* Menu Section */
+.menu-wrapper{
+    /* border-radius: 120px; */
+    padding-top: 40px;
+}
+#m1{
+    position: relative;
+    right: 350px;
+    border-radius: 40px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 40px 0 rgba(0, 0, 0, 0.19);
+}
+#m2{
+    position: relative;
+    bottom: 423px;
+    left: 350px;
+    border-radius: 40px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 40px 0 rgba(0, 0, 0, 0.19);
+}
+#m3{
+    position: relative; 
+    left: 350px;
+    bottom: 390px;
+    border-radius: 40px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 40px 0 rgba(0, 0, 0, 0.19);
+}
